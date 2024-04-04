@@ -7,3 +7,19 @@ print("5. Bake at 200 degrees C for 30 minutes.")
 
 #Escaping characters:
 print("she said \"Hello\" and then we laughed!!")
+
+#naming variables
+
+name = "Jack"
+print(name)
+
+name = "Angela"
+print(name)
+
+#inputs
+name=input("What is your name?")
+print("hello "+input("what is your name? \n")+"!")
+
+#finding the length of a string
+length = len(name)
+print(length)
