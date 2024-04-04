@@ -17,9 +17,11 @@ name = "Angela"
 print(name)
 
 #inputs
-name=input("What is your name?")
-print("hello "+input("what is your name? \n")+"!")
+# name=input("What is your name?")
+# print("hello "+input("what is your name? \n")+"!")
 
 #finding the length of a string
 length = len(name)
-print(length)
+
+lengthToStr = str(length)
+print("your name has "+lengthToStr+ " characters")
