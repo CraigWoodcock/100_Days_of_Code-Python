@@ -61,6 +61,15 @@ print(round(8/3,2))
 print(round(2.675425625,2))
 
 
+# F-Strings!!
+
+score = 0
+height = 1.8
+isWinning = False
+
+print(f"your score is {score} and your height is {height}, but you are winning is {isWinning}")
+
+
 
 
 
