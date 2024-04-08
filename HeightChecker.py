@@ -21,8 +21,12 @@ ticket_type = ""
 if height >= 120:
     print("You can ride this RollerCoaster.")
     age = int(input("What is your age?: \n"))
-    if age <=18:
+    if age < 12:
         ticket_type = "CHILD"
+        ticket_price = 5
+        print(f"the cost of your {ticket_type} ticket is ${ticket_price}")
+    elif (age >= 12) & (age <=18):
+        ticket_type = "JUNIOR"
         ticket_price = 7
         print(f"the cost of your {ticket_type} ticket is ${ticket_price}")
     else:
