@@ -9,6 +9,7 @@ weight = input("enter weight: \n")
 
 result = int(weight)/(float(height)**2)
 
+
 #convert the result into an int so it is returned as a whole number.
 #store the value as a variable called bmi.
 #print the bmi.
@@ -23,3 +24,15 @@ print("your bmi is "+bmi_as_str)
 #we can also convert the bmi int into a str in one line:
 bmi = str(int(result)) #this overwrites the original variable converting it from an int into a str, we can no longer perform mathematical operations on this variable but we can use it as a string:
 print("Your Body Mass Index is " + bmi) 
+
+if result <18.5:
+  print(f"Your BMI is {result}, you are underweight.")
+elif result <25:
+  print(f"Your BMI is {result}, you have a normal weight.")
+elif result <30:
+  print(f"Your BMI is {result}, you are slightly overweight.")
+elif result <35:
+ print(f"Your BMI is {result}, you are obese.")
+else:
+   print(f"Your BMI is {result}, you are clinically obese")
+
