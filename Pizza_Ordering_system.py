@@ -13,12 +13,10 @@ else:
   price = 15
 
 if add_pepperoni == "Y".lower():
-    if size == "L".lower():
-      price += 3
-    elif size == "M".lower():
-      price += 3
-    else:
+    if size == "S".lower():
       price += 2
+    else:
+      price += 3
 
 if extra_cheese == "Y".lower():
   price +=1
