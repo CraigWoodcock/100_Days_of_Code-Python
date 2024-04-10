@@ -31,6 +31,9 @@ if height >= 120:
         ticket_type = "JUNIOR"
         ticket_price = 7    
         print(f"the cost of your {ticket_type} ticket is ${ticket_price} \n")
+    elif age >= 45 and age <= 55:
+        ticket_type = "FREE"
+        print(f"The cost of your {ticket_type} ticket is ${ticket_price} \n")
     else:
         ticket_type = "ADULT"
         ticket_price = 12
