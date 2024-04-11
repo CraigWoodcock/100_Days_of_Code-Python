@@ -16,7 +16,7 @@ u = name_lower.count("u")
 e = name_lower.count("e")
 
 #add them up and multiply by 10
-true_total = int((t+r+u+e)*10)
+true_total = (t+r+u+e)*10
 
 #count instances of each letter in the word love
 l = name_lower.count("l")
@@ -25,8 +25,7 @@ v = name_lower.count("v")
 e = name_lower.count("e")
 
 # add them together
-love_total = int(l+o+v+e)
-
+love_total = l+o+v+e
 #now add true_total and love_total to give the love score
 total = true_total+love_total
 
